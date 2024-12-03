@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danlac - Leche 100% Natural</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Se eliminó la imagen del encabezado -->
+    </header>
+  
+    <section class="banner">
+        <div class="banner-text">
+            <h1>DANLAC - LECHE 100% NATURAL</h1>
+            <h2>DESCUBRE LA FRESCURA EN CADA VASO</h2>
+            <p>LECHE, FRESCA, NATURAL Y SALUDABLE PARA TU FAMILIA</p>
+        </div>
+        <div class="banner-image">
+            <img src="images/banner1.jpg" alt="Imagen de Leche Danlac" class="banner-img">
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="benefit">FRESCURA GARANTIZADA</div>
+        <div class="benefit">PRODUCCIÓN SOSTENIBLE</div>
+        <div class="benefit">SIN ADITIVOS NI CONSERVANTES</div>
+    </section>
+
+    <section class="testimonials-form">
+        <div class="testimonials-container">
+            <div class="testimonials">
+                <h2>TESTIMONIOS DE CLIENTES</h2>
+                <div class="testimonial">
+                    <div class="testimonial-image">
+                        <img src="images/ana.jpg" alt="Cliente 1">
+                    </div>
+                    <div class="testimonial-text">
+                        <p><strong>“La mejor leche para mi familia”</strong> - Ana</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-image">
+                        <img src="images/pedro.jpg" alt="Cliente 2">
+                    </div>
+                    <div class="testimonial-text">
+                        <p><strong>“Natural y deliciosa”</strong> - Pedro</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-image">
+                        <img src="images/maria.jpg" alt="Cliente 3">
+                    </div>
+                    <div class="testimonial-text">
+                        <p><strong>“Excelente calidad”</strong> - María</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="form-box">
+                    <h2>¡RECIBE INFORMACIÓN PARA TU BIENESTAR!</h2>
+                    <p>Deja tus datos y recibe recetas saludables, consejos de bienestar y mucho más.</p>
+                    <form action="#" method="post">
+                        <input type="text" name="first-name" placeholder="Nombre" required>
+                        <input type="text" name="last-name" placeholder="Apellido" required>
+                        <input type="email" name="email" placeholder="Correo electrónico" required>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Síguenos en Instagram | Facebook | TikTok</p>
+        <p><a href="#sostenibilidad">Políticas de sostenibilidad</a> | <a href="#contacto">Contacto</a></p>
+    </footer>
+</body>
+</html>
